@@ -1,0 +1,100 @@
+body {
+  background-color: lightblue;
+  font-family: Arial;
+  /* Uso de flexbox */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+#contenedor {
+  background-color: white;
+  width: 400px;
+  padding: 30px;
+  border: 2px solid gray;
+  border-radius: 12px;
+}
+
+h2 {
+  color: black;
+  margin-bottom: 6px;
+}
+
+p {
+  color: gray;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-top: 10px;
+}
+
+.campo {
+  /* Uso de flexbox */
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+#boton-enviar {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border: 0px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-top: 6px;
+}
+
+#error-nombre {
+  color: red;
+  font-size: 13px;
+}
+
+#error-correo {
+  color: red;
+  font-size: 13px;
+}
+
+#error-contrasena {
+  color: red;
+  font-size: 13px;
+}
+
+#link-login {
+  text-align: center;
+  margin-top: 16px;
+}
+
+a {
+  color: blue;
+}
+
+.campo-error {
+  border: 1px solid red;
+}
+
+.campo-ok {
+  border: 1px solid green;
+}
+
+.campo-normal {
+  border: 1px solid gray;
+}

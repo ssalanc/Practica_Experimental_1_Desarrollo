@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Viaja Ahora</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="contenedor">
+
+  <h2>Crear cuenta</h2>
+  <p>Únete a miles de viajeros y descubre el mundo</p>
+
+  <form id="registroForm">
+
+    <div class="campo">
+      <label>Nombre completo:</label>
+      <input type="text" id="nombre" placeholder="Ej: Ana García">
+      <span id="error-nombre"></span>
+    </div>
+
+    <div class="campo">
+      <label>Correo electrónico:</label>
+      <input type="text" id="correo" placeholder="Ej: ana@email.com">
+      <span id="error-correo"></span>
+    </div>
+
+    <div class="campo">
+      <label>Contraseña:</label>
+      <input type="password" id="contrasena" placeholder="Minimo 8 caracteres">
+      <span id="error-contrasena"></span>
+    </div>
+
+    <button type="submit" id="boton-enviar">Comenzar aventura</button>
+
+  </form>
+
+  <p id="link-login">¿Ya tienes cuenta? <a href="#">Inicia sesión</a></p>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
